@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.username.pub-sim",
+    "description": "description of pub-sim",
+    "framework": "ubuntu-sdk-14.04-qml",
+    "architecture": "all",
+    "title": "pub-sim",
+    "hooks": {
+        "pub-sim": {
+            "apparmor": "pub-sim.json",
+            "desktop": "pub_sim.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": ""
+}
